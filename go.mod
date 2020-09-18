@@ -1,6 +1,6 @@
 module ex-client
 
-replace github.com/whitehatsec/go-lib => github.com/joncarey-whitehatsec/go-lib v0.0.0-20200917222022-101b56741480
+replace github.com/whitehatsec/go-lib => github.com/joncarey-whitehatsec/go-lib v0.0.0-20200918143828-6003a0c87408
 
 go 1.13
 
