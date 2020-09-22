@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/whitehatsec/go-lib/pkg/logging"
-	grpcclient "github.com/whitehatsec/go-lib/pkg/transport/grpc/client"
+	"github.com/whitehatsec/go-lib/pkg/transport/grpc/grpcclient"
 	service "github.com/whitehatsec/sentinel-api/pkg/grpc/discoveredvulnservice"
 	"google.golang.org/grpc"
 )

@@ -199,6 +199,8 @@ github.com/joncarey-whitehatsec/go-lib v0.0.0-20200917222022-101b56741480 h1:KOJ
 github.com/joncarey-whitehatsec/go-lib v0.0.0-20200917222022-101b56741480/go.mod h1:9DLMRl1iZ6t/ViBsjENt+hiKVjFhMjN8OVwbjlSBzBs=
 github.com/joncarey-whitehatsec/go-lib v0.0.0-20200918143828-6003a0c87408 h1:mzrxRrRZEtRUno4bzQAFDEt5ugzHo10pwrI8JoxGwqA=
 github.com/joncarey-whitehatsec/go-lib v0.0.0-20200918143828-6003a0c87408/go.mod h1:9DLMRl1iZ6t/ViBsjENt+hiKVjFhMjN8OVwbjlSBzBs=
+github.com/joncarey-whitehatsec/go-lib v0.0.0-20200922183754-be02e2e6c7e6 h1:0J6kY0xwg7OcLtS9ez3qlDIflnCmmu3Plux7LV/eq24=
+github.com/joncarey-whitehatsec/go-lib v0.0.0-20200922183754-be02e2e6c7e6/go.mod h1:4Lxj0EizDlUxbXkY98oIDmC2pjX/8EqxRDRDkGRLRss=
 github.com/json-iterator/go v0.0.0-20180612202835-f2b4162afba3/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCVDaaPEHmU=
 github.com/json-iterator/go v1.1.6/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCVDaaPEHmU=
 github.com/json-iterator/go v1.1.7/go.mod h1:KdQUCv79m/52Kvf8AW2vK1V8akMuk1QjK/uOdHXbAo4=
