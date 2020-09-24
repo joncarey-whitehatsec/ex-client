@@ -18,7 +18,7 @@ func main() {
 	})
 	cc, err := grpcclient.NewClientConn(
 		&grpcclient.Configuration{
-			Target:             "localhost:12001",
+			Targets:            map[string]interface{}{"discovered-vuln-service": "localhost:12001"},
 			InsecureSkipVerify: true,
 		},
 		grpcclient.WithLogger(logger),
@@ -27,7 +27,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	client := service.NewDiscoveredVulnServiceClient(cc)
+	client := service.NewDiscoveredVulnServiceClient(cc["discovered-vuln-service"])
 	res, err := client.AddAttackVector(ctx, &service.AddAttackVectorRequest{})
 	logger.Error().Err(err).Interface("res", res).Msg("add av response")
 	stream, err := client.ListAttackVectors(ctx, &service.ListAttackVectorsRequest{})
