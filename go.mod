@@ -1,11 +1,9 @@
 module ex-client
 
-replace github.com/whitehatsec/go-lib => github.com/joncarey-whitehatsec/go-lib v0.0.0-20200924190709-329be16802d8
-
 go 1.13
 
 require (
-	github.com/whitehatsec/go-lib v0.0.0-00010101000000-000000000000
-	github.com/whitehatsec/sentinel-api v0.0.0-20200917181720-e13596be7c3f
-	google.golang.org/grpc v1.31.0
+	github.com/whitehatsec/go-lib v0.0.0-20200930155908-8b3d9f9732a1
+	github.com/whitehatsec/sentinel-api v0.0.0-20200929175543-c051ca60332c
+	google.golang.org/grpc v1.32.0
 )

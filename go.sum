@@ -355,8 +355,12 @@ github.com/valyala/fasthttp v1.12.0/go.mod h1:229t1eWu9UXTPmoUkbpN/fctKPBY4IJoFX
 github.com/valyala/fasthttp v1.13.1/go.mod h1:ol1PCaL0dX20wC0htZ7sYCsvCYmrouYra0zHzaclZhE=
 github.com/valyala/fasthttp v1.14.0/go.mod h1:ol1PCaL0dX20wC0htZ7sYCsvCYmrouYra0zHzaclZhE=
 github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a/go.mod h1:v3UYOV9WzVtRmSR+PDvWpU/qWl4Wa5LApYYX4ZtKbio=
+github.com/whitehatsec/go-lib v0.0.0-20200930155908-8b3d9f9732a1 h1:bdDCMU5AXDw5xk0QdrrJhcXuLtSs9TfTp4B6G/wwVdM=
+github.com/whitehatsec/go-lib v0.0.0-20200930155908-8b3d9f9732a1/go.mod h1:4Lxj0EizDlUxbXkY98oIDmC2pjX/8EqxRDRDkGRLRss=
 github.com/whitehatsec/sentinel-api v0.0.0-20200917181720-e13596be7c3f h1:PidE2g/SLN6XYAGG6LaavgyVOT3F8QxiF1GTqueu/ME=
 github.com/whitehatsec/sentinel-api v0.0.0-20200917181720-e13596be7c3f/go.mod h1:qvd3IhPpcQ9NmE0mCJ3ZkGqs6bu43JlmmSSbecQPbDc=
+github.com/whitehatsec/sentinel-api v0.0.0-20200929175543-c051ca60332c h1:Oad5uzi4LYnzXhiYwlHjcCPtbEIHZEbdJOHue0lpR7Y=
+github.com/whitehatsec/sentinel-api v0.0.0-20200929175543-c051ca60332c/go.mod h1:qvd3IhPpcQ9NmE0mCJ3ZkGqs6bu43JlmmSSbecQPbDc=
 github.com/xiang90/probing v0.0.0-20160813154853-07dd2e8dfe18/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
 github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=
@@ -503,6 +507,8 @@ google.golang.org/grpc v1.27.1/go.mod h1:qbnxyOmOxrQa7FizSgH+ReBfzJrCY1pSN7KXBS8
 google.golang.org/grpc v1.28.0/go.mod h1:rpkK4SK4GF4Ach/+MFLZUBavHOvF2JJB5uozKKal+60=
 google.golang.org/grpc v1.31.0 h1:T7P4R73V3SSDPhH7WW7ATbfViLtmamH0DKrP3f9AuDI=
 google.golang.org/grpc v1.31.0/go.mod h1:N36X2cJ7JwdamYAgDz+s+rVMFjt3numwzf/HckM8pak=
+google.golang.org/grpc v1.32.0 h1:zWTV+LMdc3kaiJMSTOFz2UgSBgx8RNQoTGiZu3fR9S0=
+google.golang.org/grpc v1.32.0/go.mod h1:N36X2cJ7JwdamYAgDz+s+rVMFjt3numwzf/HckM8pak=
 gopkg.in/alecthomas/kingpin.v2 v2.2.6/go.mod h1:FMv+mEhP44yOT+4EoQTLFTRgOQ1FBLkstjWtayDeSgw=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
