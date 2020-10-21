@@ -5,6 +5,7 @@ import (
 
 	"github.com/whitehatsec/go-lib/pkg/logging"
 	"github.com/whitehatsec/go-lib/pkg/transport/grpc/grpcclient"
+	"github.com/whitehatsec/sentinel-api/pkg/grpc/data"
 	service "github.com/whitehatsec/sentinel-api/pkg/grpc/discoveredvulnservice"
 	"google.golang.org/grpc"
 )
@@ -28,7 +29,16 @@ func main() {
 		panic(err)
 	}
 	client := service.NewDiscoveredVulnServiceClient(cc["discovered-vuln-service"])
-	res, err := client.AddAttackVector(ctx, &service.AddAttackVectorRequest{})
+	res, err := client.AddAttackVector(ctx, &service.AddAttackVectorRequest{
+		AttackVector: &data.AttackVector{
+			DastSpecific: &data.AttackVector_DASTSpecific{
+				AllowReplay: true,
+			},
+			Vuln: &data.Vuln{
+				VulnClass: &data.VulnClass{Id: 99},
+			},
+		},
+	})
 	logger.Error().Err(err).Interface("res", res).Msg("add av response")
 	stream, err := client.ListAttackVectors(ctx, &service.ListAttackVectorsRequest{})
 	logger.Error().Err(err).Interface("stream", stream).Msg("list av response")
